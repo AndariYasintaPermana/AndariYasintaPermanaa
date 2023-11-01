@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\challenge;
+use App\Http\Controllers\latihanform;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,6 @@ use App\Http\Controllers\challenge;
 */
 
 Route::get('/', [challenge::class,'index']);
+
+Route::get('/', [latihanform::class,'index']);
+Route::post('/profile', [latihanform::class,'store']);

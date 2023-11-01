@@ -44,6 +44,7 @@
         </div>
     </nav>
     @yield('biodata')
+    @yield('form')
 
     <script type="text/javascript" src="/js/app.js"></script>
 </body>
